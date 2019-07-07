@@ -1,0 +1,15 @@
+---
+title: 블로그에 Anatole테마를 적용했습니다!
+date: 2019-07-06 15:12:42
+tags: blog-update
+articleID: 2
+---
+
+블로그에 [Anatole](https://github.com/Ben02/hexo-theme-Anatole)테마를 적용했습니다!
+천천히 태마를 수정하면서 블로그를 고치는 중입니다.
+
+추가로 [utterances](https://utteranc.es/)를 이용해 댓글을 달 수 있게 수정했습니다
+
+- [Anatole](https://github.com/Ben02/hexo-theme-Anatole) 테마 적용
+  - 한국어로 수정
+  - 포스트 하단 [utterances](https://utteranc.es) 추가
