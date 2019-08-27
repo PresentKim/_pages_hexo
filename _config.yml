@@ -4,7 +4,7 @@
 
 # Site
 title: Present blog
-subtitle: 
+subtitle:
 description:
 keywords: JavaScript,PHP
 author: PresentKim,debe3721@gmail.com
@@ -36,15 +36,15 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: 
- 
+  tab_replace:
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -53,7 +53,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -76,7 +76,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: anatole
 archive_generator:
-  per_page: 0  
+  per_page: 0
   yearly: false
   monthly: false
   daily: false
