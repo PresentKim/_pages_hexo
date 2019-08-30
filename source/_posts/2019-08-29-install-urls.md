@@ -1,5 +1,5 @@
 ---
-title: install-urls
+title: 설치할 프로그램 목록
 date: 2019-08-29 23:50:51
 tags: ckir
 articleID: 8

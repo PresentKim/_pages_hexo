@@ -1,5 +1,5 @@
 ---
-title: ckir-unlocker-bat
+title: 사이버 지식 정보방 제한 해제기
 date: 2019-08-30 23:47:38
 tags: ckir, file
 articleID: 9
