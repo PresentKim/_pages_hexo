@@ -1,7 +1,7 @@
 ---
 title: install-urls
 date: 2019-08-29 23:50:51
-tags: sagibang
+tags: ckir
 articleID: 8
 ---
 

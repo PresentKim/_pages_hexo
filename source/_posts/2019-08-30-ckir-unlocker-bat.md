@@ -1,7 +1,7 @@
 ---
 title: ckir-unlocker-bat
 date: 2019-08-30 23:47:38
-tags: sagibang
+tags: ckir, file
 articleID: 9
 ---
 

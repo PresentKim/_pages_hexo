@@ -1,7 +1,7 @@
 ---
 title: 동기화 설정 진행중
 date: 2019-08-29 23:31:40
-tags: sagibang
+tags: ckir
 articleID: 7
 ---
 

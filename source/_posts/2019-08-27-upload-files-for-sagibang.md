@@ -1,7 +1,7 @@
 ---
 title: 사지방을 위한 배치 파일들
 date: 2019-08-27 23:17:58
-tags: file, sagibang
+tags: file, ckir
 articleID: 6
 ---
 
