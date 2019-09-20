@@ -25,9 +25,11 @@ image: Ubuntu1804
 # set clone depth
 clone_depth: 5
 
+# Install nodejs version 12.x
+stack: node 12
+
 # environment variables
 environment:
-  nodejs_version: "12"
   platform: "x64"
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
@@ -52,8 +54,6 @@ init:
 
 # scripts that run after cloning repository
 install:
-  # install nodejs version 12.x
-  - ps: Install-Product node $env:nodejs_version $env:platform
   # install hexo-cli to global
   - npm install hexo-cli -g
   # install dependency
