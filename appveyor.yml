@@ -35,9 +35,6 @@ environment:
   GIT_USER_NAME: PresentKim
   GIT_USER_TOKEN:
     secure: S1QYp6oZpUMJI4EszvBaLUFq6pr2dtweoP3P+uF+l6XDQ+CyojHnG2B+rH1NqCto
-    cache:
-      - 'node_modules'  # local npm modules
-      - '%APPDATA%\npm-cache' # npm cache
 
 # build cache to preserve files/folders between builds
 cache:
