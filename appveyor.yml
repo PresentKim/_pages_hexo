@@ -27,7 +27,6 @@ clone_depth: 5
 
 # environment variables
 environment:
-  nodejs_version: "10"
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
   GIT_USER_TOKEN:
@@ -51,9 +50,14 @@ init:
 
 # scripts that run after cloning repository
 install:
-  - ps: Install-Product node $env:nodejs_version
+  # install nodejs > v12
+  - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  - sudo apt-get install -y nodejs
+  # install npm
   - npm install --global npm@latest
+  # install hexo-cli to global
   - npm install hexo-cli -g
+  # install dependency
   - npm install
 
 # to run your custom scripts instead of automatic MSBuild
