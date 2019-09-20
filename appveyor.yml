@@ -51,7 +51,7 @@ build_script:
 
 # on successful build
 on_success:
-  - do something
+  - hexo deploy
 
 
 #---------------------------------#
