@@ -1,0 +1,54 @@
+#---------------------------------#
+#      general configuration      #
+#---------------------------------#
+# version format
+version: 1.0.{build}
+
+# branches to build
+branches:
+  # whitelist
+  only:
+    - source
+
+# Maximum number of concurrent jobs for the project
+max_jobs: 1
+
+
+#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+# Build worker image (VM template)
+image: Ubuntu1804
+
+# set clone depth
+clone_depth: 5
+
+# scripts that are called at very beginning, before repo cloning
+init:
+  - git config --global core.autocrlf input
+  - git config --global credential.helper store
+
+# scripts that run after cloning repository
+install:
+  - npm install --global npm@latest
+  - npm install hexo-cli -g
+  - npm install
+
+# to run your custom scripts instead of automatic MSBuild
+build_script:
+  - hexo clean
+  - hexo generate
+
+# on successful build
+on_success:
+  - do something
+
+
+#---------------------------------#
+#      artifacts configuration    #
+#---------------------------------#
+
+artifacts:
+  - path: public
+    name: source.zip
