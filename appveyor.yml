@@ -28,7 +28,7 @@ clone_depth: 5
 # environment variables
 environment:
   nodejs_version: "12"
-  platform: "x86"
+  platform: "x64"
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
   GIT_USER_TOKEN:
@@ -53,15 +53,7 @@ init:
 # scripts that run after cloning repository
 install:
   # install nodejs version 12.x
-  - ps: |
-    try {
-      Install-Product node $env:nodejs_version $env:platform
-    } catch {
-      echo "Unable to install node $env:nodejs_version, trying update..."
-      Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version) $env:platform
-    }
-  # install npm
-  - npm install --global npm@latest
+  - ps: Install-Product node $env:nodejs_version $env:platform
   # install hexo-cli to global
   - npm install hexo-cli -g
   # install dependency
