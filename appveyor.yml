@@ -27,6 +27,7 @@ clone_depth: 5
 
 # environment variables
 environment:
+  nodejs_version: "10"
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
   GIT_USER_TOKEN:
@@ -50,6 +51,7 @@ init:
 
 # scripts that run after cloning repository
 install:
+  - ps: Install-Product node $env:nodejs_version
   - npm install --global npm@latest
   - npm install hexo-cli -g
   - npm install
