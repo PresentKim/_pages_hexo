@@ -448,6 +448,7 @@ cls
   ECHO 74.125.24.132 ci4.googleusercontent.com
   ECHO 74.125.24.132 ci5.googleusercontent.com
   ECHO 74.125.24.132 ci6.googleusercontent.com
+  ECHO 74.125.24.132 doc-04-2s-docs.googleusercontent.com
   ECHO 74.125.24.132 doc-0k-5c-docs.googleusercontent.com
   ECHO 74.125.24.132 drive-thirdparty.googleusercontent.com
   ECHO 74.125.24.132 lh1.googleusercontent.com
