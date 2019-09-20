@@ -1,6 +1,7 @@
 #---------------------------------#
 #      general configuration      #
 #---------------------------------#
+
 # version format
 version: 1.0.{build}
 
@@ -24,6 +25,7 @@ image: Ubuntu1804
 # set clone depth
 clone_depth: 5
 
+# environment variables
 environment:
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
