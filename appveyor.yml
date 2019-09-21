@@ -30,7 +30,6 @@ stack: node 12
 
 # environment variables
 environment:
-  platform: "x64"
   GIT_USER_EMAIL: debe3721@gmail.com
   GIT_USER_NAME: PresentKim
   GIT_USER_TOKEN:
