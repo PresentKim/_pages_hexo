@@ -72,4 +72,4 @@ on_success:
 
 artifacts:
   - path: public
-    name: source.zip
+    name: source
