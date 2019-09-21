@@ -38,7 +38,7 @@ environment:
 # build cache to preserve files/folders between builds
 cache:
   - 'node_modules'  # local npm modules
-  - '%APPDATA%\npm-cache' # npm cache
+  - '~/.npm' # npm cache
 
 # scripts that are called at very beginning, before repo cloning
 init:
