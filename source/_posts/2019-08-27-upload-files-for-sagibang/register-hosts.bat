@@ -2,6 +2,8 @@
 echo. >>hosts
 echo. >>hosts
 
+cd /d C:\Windows\System32\drivers\etc\
+
 rem 구글 계열
 echo 216.58.192.35 www.google.co.kr >>hosts
 echo 216.58.192.35 google.co.kr >>hosts
