@@ -42,7 +42,6 @@ cache:
 
 # scripts that are called at very beginning, before repo cloning
 init:
-  - git config --global core.autocrlf input
   - git config --global credential.helper store
   - ps: Add-Content "$HOME\.git-credentials" "https://$($env:GIT_USER_TOKEN):x-oauth-basic@github.com`n"
   - git config --global user.email ${GIT_USER_EMAIL}
