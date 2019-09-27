@@ -1,0 +1,3 @@
+# Windows CMD does not like LF in batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
