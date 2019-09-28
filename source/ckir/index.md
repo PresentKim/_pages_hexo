@@ -23,7 +23,8 @@ date: 2019-09-27 23:21:54
 - [bandizip](https://kr.bandisoft.com/bandizip/)  
 - [git-cui](https://git-scm.com/download/win) 자동으로 다운로드 시작  
 - [nodejs](https://nodejs.org/ko/)  
-- [atom](https://github.com/atom/atom/releases/latest) `atom-windows.zip`받아서 포터블로 실행  
+- [vscode](https://code.visualstudio.com/#alt-downloads)  `.zip`>`32 bit` 받아서 포터블로 실행  
+- ~~[atom](https://github.com/atom/atom/releases/latest) `atom-windows.zip`받아서 포터블로 실행~~  
 - [MobaXterm](https://mobaxterm.mobatek.net/) SSH클라이언트  
   
   -----
