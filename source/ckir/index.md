@@ -37,6 +37,4 @@ date: 2019-09-27 23:21:54
 # {% fa_inline check-double %} TODO List  
 - 구글 드라이브로 개발 프로젝트 자동으로 백업/복구 (`.git`, `node_modules` 때문에 고민중)  
   
-  -----
-  
 {% fa_css %}  
