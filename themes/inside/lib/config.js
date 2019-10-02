@@ -12,7 +12,7 @@ const external_regex = /^(\w+:)?\/\/\w+\.\w+/;
 module.exports = function (hexo) {
   hexo.on('generateBefore', function () {
     const site = hexo.config;
-    const theme = hexo.theme.config;
+    const theme = utils.deepmerge(hexo.theme.config, site.theme_config);
     const email = theme.profile && theme.profile.email || site.email || '';
     const feed = site.feed ? urlFor.call(this, site.feed.path) : '';
     const result = utils.parseConfig(configSchema, theme, {
