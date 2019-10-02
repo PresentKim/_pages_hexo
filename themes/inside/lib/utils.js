@@ -745,3 +745,19 @@ exports.parseBackground = function (value) {
     image: value
   }
 }
+
+/**
+ * Merge a `source` object to a `target` recursively
+ * @url https://gist.github.com/ahtcx/0cd94e62691f539160b32ecda18af3d6
+ */
+var deepmerge = function(target, source){
+  // Iterate through `source` properties and if an `Object` set property to merge of `target` and `source` properties
+  for (const key of Object.keys(source)) {
+    if (source[key] instanceof Object) Object.assign(source[key], deepmerge(target[key], source[key]));
+  }
+
+  // Join `target` and modified `source`
+  Object.assign(target || {}, source);
+  return target;
+}
+exports.deepmerge = deepmerge;
