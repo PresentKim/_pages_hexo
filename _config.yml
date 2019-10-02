@@ -76,10 +76,21 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: inside
 theme_config:
-  bio: Hello
+  # Sidebar profile
+  profile:
+    bio: 안녕하세요. 김현재입니다
+    avatar: /images/logo.png
+  menu:
+    Home: /
+    CKIR: /ckir/
   sns:
     github: https://github.com/PresentKim
-    telegram: https://t.me/PresentKim
+    telegram: https://t.me/PresentKim    
+  footer:
+    copyright: '&copy; 2019 • <a href="">PresentKim</a>'
+    powered: false
+    theme: false
+  favicon: /images/favicon.png
 
 archive_generator:
   per_page: 0
