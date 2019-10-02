@@ -1,7 +1,8 @@
 ---
 title: 사이버 지식 정보방용 정보
 date: 2019-09-27 23:47:38
-tags: ckir
+tags: 사지방, 페이지
+category: ckir
 articleID: 10
 ---
   

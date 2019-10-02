@@ -1,7 +1,8 @@
 ---
 title: 블로그에 Anatole테마를 적용했습니다!
 date: 2019-07-06 15:12:42
-tags: blog-update
+tags: 
+category: blog
 articleID: 2
 ---
   

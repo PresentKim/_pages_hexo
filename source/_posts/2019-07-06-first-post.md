@@ -1,7 +1,8 @@
 ---
 title: Hexo 블로그를 만들었습니다!
 date: 2019-07-06 13:51:27
-tags: blog-update
+tags: 
+category: blog
 articleID: 1
 ---
   

@@ -1,7 +1,8 @@
 ---
 title: markdown-it을 설치했습니다
 date: 2019-07-09 19:10:44
-tags: blog-update
+tags: 
+category: blog
 articleID: 5
 ---
   
