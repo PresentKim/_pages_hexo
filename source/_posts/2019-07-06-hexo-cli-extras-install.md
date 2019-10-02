@@ -1,7 +1,8 @@
 ---
 title: 블로깅을 편하게 하려고 노력중입니다
 date: 2019-07-06 20:15:17
-tags: server-update
+tags: 
+category: blog
 articleID: 4
 ---
   

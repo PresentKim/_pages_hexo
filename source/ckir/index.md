@@ -5,7 +5,7 @@ date: 2019-09-27 23:21:54
   
 # {% fa_inline terminal %} 사지방용 BAT 파일  
 사지방 설정용 BAT 파일을 만드는 중입니다. ~~(계속 업데이트 할 예정입니다)~~  
-- [{% fa_inline file-download %} 파일 바로 받기](./CKIR-unlocker.bat)  
+- [{% fa_inline file-download %} 파일 바로 받기](ckir/CKIR-unlocker.bat)  
 - [{% fa_inline file-code %} 파일 소스 보기](https://github.com/PresentKim/presentkim.github.io/blob/source/source/ckir/CKIR-unlocker.bat)  
 지원하는 기능  
 - 사이트 제한 해제 : `hosts`파일에 설정을 추가해서 접속이 안되는 사이트들을 일부 뚫어준다  

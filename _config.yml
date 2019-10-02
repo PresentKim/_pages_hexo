@@ -7,10 +7,10 @@ title: Present blog
 subtitle:
 description:
 keywords: JavaScript,PHP
-author: PresentKim,debe3721@gmail.com
+author: PresentKim
+email: debe3721@gmail.com
 language: ko-kr
 timezone: Asia/Seoul
-avatar: /images/favicon.png
 github: PresentKim
 
 # URL
@@ -74,7 +74,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anatole
+theme: inside
+theme_config:
+  bio: Hello
+  sns:
+    github: https://github.com/PresentKim
+    telegram: https://t.me/PresentKim
+
 archive_generator:
   per_page: 0
   yearly: false

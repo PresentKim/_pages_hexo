@@ -1,7 +1,8 @@
 ---
 title: 포스트 url을 게시글ID로 수정했습니다
 date: 2019-07-06 18:25:59
-tags: blog-update
+tags: 
+category: blog
 articleID: 3
 ---
 
