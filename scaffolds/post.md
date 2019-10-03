@@ -2,5 +2,6 @@
 title: {{ title }}
 date: {{ date }}
 tags: 
-articleID:
+category: 
+articleID: 
 ---
