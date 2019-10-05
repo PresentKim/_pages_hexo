@@ -123,3 +123,7 @@ markdown:
     permalink: true
     permalinkClass: header-anchor
     permalinkSymbol: ''
+
+# sitemap auto generator
+sitemap:
+  path: sitemap.xml
