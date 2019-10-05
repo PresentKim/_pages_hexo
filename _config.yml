@@ -127,3 +127,12 @@ markdown:
 # sitemap auto generator
 sitemap:
   path: sitemap.xml
+
+# rss feed auto generator
+feed:
+  # feed type (atom / rss2)
+  type: rss2
+  # feed path (Default: atom.xml / rss2.xml)
+  path: rss2.xml
+  # 최신 포스트의 수 설정. (0 또는 false 입력시 전체 포스트)
+  limit: 20
