@@ -1,12 +1,18 @@
 ---
 title: 사이버 지식 정보방
-date: 2019-09-27 23:21:54
+date: 2019-10-23 23:33:54
 ---
   
+# {% fa_inline file-download %} 사지방 파일 공유  
+[PresentKim Cloud](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/)
+  
+  -----
+  
+
 ## {% fa_inline terminal %} 사지방용 BAT 파일  
 사지방 설정용 BAT 파일을 만드는 중입니다. ~~(계속 업데이트 할 예정입니다)~~  
-- [{% fa_inline file-download %} 파일 바로 받기](ckir/CKIR-unlocker.bat)  
-- [{% fa_inline file-code %} 파일 소스 보기](https://github.com/PresentKim/presentkim.github.io/blob/source/source/ckir/CKIR-unlocker.bat)  
+- [{% fa_inline file-download %} 파일 받기](ckir/CKIR-unlocker.bat) [(or present cloud)](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/files/?p=%2FCKIR-unlocker.bat)  
+- [{% fa_inline file-code %} 파일 소스](https://github.com/PresentKim/presentkim.github.io/blob/source/source/ckir/CKIR-unlocker.bat)  
 지원하는 기능  
 - 사이트 제한 해제 : `hosts`파일에 설정을 추가해서 접속이 안되는 사이트들을 일부 뚫어준다  
 - DNS 설정 : DNS를 8.8.8.8 로 설정해줘서 접근 속도를 높여준다 ~~(근데; 원래 빠르다)~~  
@@ -20,9 +26,10 @@ date: 2019-09-27 23:21:54
   
 ## {% fa_inline file-download %} 설치할 프로그램 다운로드 링크 
 주로 사용하는 프로그램들의 다운로드 링크입니다  
-- [bandizip](https://kr.bandisoft.com/bandizip/)  
-- [git-cui](https://git-scm.com/download/win) 자동으로 다운로드 시작  
-- [nodejs](https://nodejs.org/ko/)  
+- [bandizip](https://kr.bandisoft.com/bandizip/) [(or present cloud)](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/files/?p=%2Finstaller%2FBandiZip_v6.25.EXE)  
+- [git-cui](https://git-scm.com/download/win) [(or present cloud)](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/files/?p=%2Finstaller%2FGit_v2.23.0.exe)  
+- [nodejs](https://nodejs.org/ko/) [(or present cloud)](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/files/?p=%2Finstaller%2FNodeJS_v12.10.0.msi)  
+- [chrome standalone 32bit](https://www.google.com/chrome/browser/desktop/index.html?standalone=1&platform=win) [(or present cloud)](https://cloud.present.kim/d/09fa2221b9aa4499b3d8/files/?p=%2Finstaller%2FChromeStandaloneSetup_v78.0.3904.70.exe)  
 - [vscode](https://code.visualstudio.com/#alt-downloads)  `.zip`>`32 bit` 받아서 포터블로 실행  
 - ~~[atom](https://github.com/atom/atom/releases/latest) `atom-windows.zip`받아서 포터블로 실행~~  
 - [MobaXterm](https://mobaxterm.mobatek.net/) SSH클라이언트  
