@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Present blog</title>
+    <link>https://present.kim/</link>
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Sat, 14 Dec 2019 13:48:40 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[하모니카] NPM global 설치 해결법</title>
+      <link>https://present.kim/2019/11/21/13/</link>
+      <guid>https://present.kim/2019/11/21/13/</guid>
+      <pubDate>Thu, 21 Nov 2019 13:10:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;정보 출처 : sindresorh
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p><a href="https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md" target="_blank" rel="noopener">정보 출처 : sindresorhus’ gist</a><br><s>터미널은 vscode의 터미널을 이용하시면 편합니다</s></p><h3 id="1-글로벌-패키지가-설치될-디렉토리를-생성합니다-create-a-directory-for-global-packages"><a class="header-anchor" href="2019/11/21/13#1-글로벌-패키지가-설치될-디렉토리를-생성합니다-create-a-directory-for-global-packages"></a>1. 글로벌 패키지가 설치될 디렉토리를 생성합니다 ~Create a directory for global packages~<a href="2019/11/21/13#1-글로벌-패키지가-설치될-디렉토리를-생성합니다-create-a-directory-for-global-packages"></a></h3><pre><code class="language-console">mkdir &quot;${HOME}/.npm-packages&quot;  </code></pre><h3 id="2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages"><a class="header-anchor" href="2019/11/21/13#2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages"></a>2. npm의 글로벌 패키지 설치 위치를 설정합니다  ~Tell npm where to store globally installed packages~<a href="2019/11/21/13#2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages"></a></h3><pre><code class="language-console">npm config set prefix &quot;${HOME}/.npm-packages&quot;  </code></pre><h3 id="2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages-v2"><a class="header-anchor" href="2019/11/21/13#2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages-v2"></a>2. npm의 글로벌 패키지 설치 위치를 설정합니다  ~Tell npm where to store globally installed packages~<a href="2019/11/21/13#2-npm의-글로벌-패키지-설치-위치를-설정합니다-tell-npm-where-to-store-globally-installed-packages-v2"></a></h3><pre><code class="language-console">npm config set prefix &quot;${HOME}/.npm-packages&quot;  </code></pre><h3 id="3-npm이-설치된-바이너리-및-매뉴얼-페이지를-찾도록-설정합니다-ensure-npm-will-find-installed-binaries-and-man-pages"><a class="header-anchor" href="2019/11/21/13#3-npm이-설치된-바이너리-및-매뉴얼-페이지를-찾도록-설정합니다-ensure-npm-will-find-installed-binaries-and-man-pages"></a>3. npm이 설치된 바이너리 및 매뉴얼 페이지를 찾도록 설정합니다  ~Ensure npm will find installed binaries and man pages~<a href="2019/11/21/13#3-npm이-설치된-바이너리-및-매뉴얼-페이지를-찾도록-설정합니다-ensure-npm-will-find-installed-binaries-and-man-pages"></a></h3><pre><code class="language-console">NPM_PACKAGES=&quot;${HOME}/.npm-packages&quot;  export PATH=&quot;$PATH:$NPM_PACKAGES/bin&quot;  export MANPATH=&quot;${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man&quot;  </code></pre><h3 id="4-bashrc-파일을-다시-로드합니다"><a class="header-anchor" href="2019/11/21/13#4-bashrc-파일을-다시-로드합니다"></a>4. .bashrc 파일을 다시 로드합니다<a href="2019/11/21/13#4-bashrc-파일을-다시-로드합니다"></a></h3><pre><code class="language-console">source ~/.bashrc</code></pre>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>[하모니카] ESukmeans님의 사지방 유튜브 접속기</title>
+      <link>https://present.kim/2019/11/21/12/</link>
+      <guid>https://present.kim/2019/11/21/12/</guid>
+      <pubDate>Thu, 21 Nov 2019 13:08:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;설명은 생략하고 간단하게 링크 공유로 넘어가겠습니다&lt;/p&gt;
+&lt;h3 id=&quot;접속&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;2019/11/21/12#접속&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://blog.esukmean.com/2019
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>설명은 생략하고 간단하게 링크 공유로 넘어가겠습니다</p><h3 id="접속"><a class="header-anchor" href="2019/11/21/12#접속"></a><a href="https://blog.esukmean.com/2019/%eb%a6%ac%eb%88%85%ec%8a%a4-%ec%82%ac%ec%a7%80%eb%b0%a9-%ec%9c%a0%ed%8a%9c%eb%b8%8c-%ec%a0%91%ec%86%8d%ea%b8%b0/" target="_blank" rel="noopener">접속</a><a href="2019/11/21/12#접속"></a></h3><p>파이어폭스가 막힌 관계로 크로미움용으로 새로 만들어 주셨습니다 <a href="https://blog.naver.com/esukmean/221680786538" target="_blank" rel="noopener">출처</a><br><a href="https://roka.esukmean.com/assets/opener.tar.gz" target="_blank" rel="noopener">파일 다운로드</a> &lt;- 받고서 적당한 곳에 압축풀고 실행하면 됩니다</p>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>[하모니카] 컴퓨터 사양 및 OS 정보</title>
+      <link>https://present.kim/2019/11/17/11/</link>
+      <guid>https://present.kim/2019/11/17/11/</guid>
+      <pubDate>Sun, 17 Nov 2019 14:30:11 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;os-확인&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;2019/11/17/11#os-확인&quot;&gt;&lt;/a&gt;OS 확인&lt;a href=&quot;2019/11/17/11#os-확인&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;명령어 - &lt;code&gt;lsb_relea
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h2 id="os-확인"><a class="header-anchor" href="2019/11/17/11#os-확인"></a>OS 확인<a href="2019/11/17/11#os-확인"></a></h2><p>명령어 - <code>lsb_release -a</code>  &amp; <code>arch</code><br>결과  free</p><pre><code class="language-bash">guest-1nl35s@h27759:~/presentkim.github.io$ lsb_release -aNo LSB modules are available.Distributor ID: HamoniKR-MEDescription:    HamoniKR-MERelease:        1.3Codename:       tara</code></pre><pre><code class="language-bash">guest-1nl35s@h27759:~/presentkim.github.io$ archx86_64</code></pre><h2 id="cpu-확인"><a class="header-anchor" href="2019/11/17/11#cpu-확인"></a>CPU 확인<a href="2019/11/17/11#cpu-확인"></a></h2><p>명령어 - <code>cat /proc/cpuinfo | grep name</code>  &amp; <code>nproc</code><br>결과</p><pre><code class="language-bash">guest-1nl35s@h27759:~/presentkim.github.io$ cat /proc/cpuinfo | grep namemodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHzmodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHzmodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHzmodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHzmodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHzmodel name      : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz</code></pre><pre><code class="language-bash">guest-1nl35s@h27759:~/presentkim.github.io$ nproc6</code></pre><h2 id="ram-확인"><a class="header-anchor" href="2019/11/17/11#ram-확인"></a>RAM 확인<a href="2019/11/17/11#ram-확인"></a></h2><p>명령어 - <code>free -h</code><br>결과</p><pre><code class="language-bash">guest-1nl35s@h27759:~/presentkim.github.io$ free -h              total        used        free      shared  buff/cache   availableMem:           3.6G        2.2G        363M        645M        1.1G        622M스왑:        2.0G        1.0G        980M</code></pre>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>[하모니카] 텔레그램 설치하기</title>
+      <link>https://present.kim/2019/11/17/10/</link>
+      <guid>https://present.kim/2019/11/17/10/</guid>
+      <pubDate>Sun, 17 Nov 2019 14:05:11 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h2 id=&quot;주의&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;2019/11/17/10#주의&quot;&gt;&lt;/a&gt;주의&lt;a href=&quot;2019/11/17/10#주의&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;사지방에 설치된 하모니카OS에선 기본적으로 제대로된 설치를 
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h2 id="주의"><a class="header-anchor" href="2019/11/17/10#주의"></a>주의<a href="2019/11/17/10#주의"></a></h2><p>사지방에 설치된 하모니카OS에선 기본적으로 제대로된 설치를 지원하지 않고, 기본적인 터미널 마저도 지원하질 않습니다<br>따라서 터미널을 사용하기 위해선 편법이 필요합니다</p><h2 id="터미널-실행"><a class="header-anchor" href="2019/11/17/10#터미널-실행"></a>터미널 실행<a href="2019/11/17/10#터미널-실행"></a></h2><p>먼저 사지방에 설치된 하모니카OS에는 코딩 교육의 무의미한 열풍에 의한 지원인지 기본적으로 Visual studio code(이하 VSCODE)라는 일렉트론으로 만들어진 에디터 프로그램이 설치되어있습니다<br>이 vscode에 있는 터미널이라는 기능을 이용 <s>(악용)</s> 해야합니다<br>VSCODE를 실행시키면 상단에 <code>Terminal</code>이 당당하게 계십니다<br><code>Terminal</code> &gt; <code>New Terminal</code>을 클릭해 새로 터미널을 열면 이제 터미널이 사용이 가능해집니다<br>(단축키는 [Ctrl + Shift + `]입니다)</p><h2 id="텔레그램-설치-및-실행"><a class="header-anchor" href="2019/11/17/10#텔레그램-설치-및-실행"></a>텔레그램 설치 및 실행<a href="2019/11/17/10#텔레그램-설치-및-실행"></a></h2><p>아래 명령어를 터미널에 차례대로 넣으면 이제 텔레그램을 실행 할 수 있습니다</p><ol><li>텔레그램 tar.gz 다운로드<br>$ <code>wget -O telegram.tar.xz https://telegram.org/dl/desktop/linux</code></li><li>다운 받은 tar.gz파일 압축 해제<br>$ <code>tar -xJvf telegram.tar.xz</code></li><li>압축 해제된 Telegram 바이너리 실행<br>$ <code>./Telegram/Telegram</code></li></ol><h2 id="screenshots"><a class="header-anchor" href="2019/11/17/10#screenshots"></a>Screenshots<a href="2019/11/17/10#screenshots"></a></h2><p><img src="2019/11/17/10/screenshot_result.png" alt="screenshot_result.png" class="article-img"></p>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>사지방에 하모니카가 설치되었습니다</title>
+      <link>https://present.kim/2019/11/17/9/</link>
+      <guid>https://present.kim/2019/11/17/9/</guid>
+      <pubDate>Sun, 17 Nov 2019 13:18:15 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;최근 사지방에 &lt;a href=&quot;https://hamonikr.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hamoni KR&lt;/a&gt;의 하모니카 미디어 에디션 - &lt;code&gt;HamoniKR-ME 64bit 1.3&lt;/code&gt;가 
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>최근 사지방에 <a href="https://hamonikr.org/" target="_blank" rel="noopener">Hamoni KR</a>의 하모니카 미디어 에디션 - <code>HamoniKR-ME 64bit 1.3</code>가 설치되었습니다<br>윈도우즈가 설치된 PC가 없는 상태로 하모니카가 설치된 PC만 있다보니 제한 사항이 크게 늘어 다들 불편해졌습니다 ;;<br>구경 하고 싶으신 분들은 <a href="https://hamonikr.org/index.php?mid=hamoni_board" target="_blank" rel="noopener">하모니 게시판</a> 에서 불편함을 호소하는 군인들과 이에 대해 시대도 따라가지 못하는 우매한 것들이라는 취급을 하는 꼰머들의 대립을 구경하실 수 있습니다</p><p>새롭게 리눅스 계열 OS를 사용하면서 <s>시대의 흐름을 따라가는…?</s> 다양한 OS를 접할 기회를 <s>강제로</s> 주는 것 까진 좋은데<br>다른 공공기관이나 인터넷 강의 사이트들은 몰라도 군에서 지원하는 군 e러닝마저 이용이 힘든 상태라는걸 보면…</p><p>일단 당장에 개발에 필요한 ssh 사용부터가 힘들다는게 답답합니다  <s>(분명 방법은 있을텐데)</s></p>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>Present Cloud를 개설했습니다!</title>
+      <link>https://present.kim/2019/10/23/8/</link>
+      <guid>https://present.kim/2019/10/23/8/</guid>
+      <pubDate>Wed, 23 Oct 2019 14:08:15 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;사지방에서는 모든 구글 사이트의 접속이 너무 느린 관계 구글 드라이브를 사지방에서 사용함에 제한이 있었습니다&lt;br&gt;
+따라서 다른 클라우드를 사용할까 하다 &lt;a href=&quot;https://seafile.com&quot; target=&quot;_blank&quot; rel=&quot;
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>사지방에서는 모든 구글 사이트의 접속이 너무 느린 관계 구글 드라이브를 사지방에서 사용함에 제한이 있었습니다<br>따라서 다른 클라우드를 사용할까 하다 <a href="https://seafile.com" target="_blank" rel="noopener">seafile</a> 기반으로 직접 파일 공유용 클라우드를 개설했습니다</p><p>일단 사지방 관련 파일들은 <a href="https://cloud.present.kim/d/09fa2221b9aa4499b3d8/" target="_blank" rel="noopener">https://cloud.present.kim/d/09fa2221b9aa4499b3d8/</a>에 올려두었습니다<br>다른 파일들을 공유할 때에도 해당 클라우드를 주로 사용하게 될 것 같습니다<br><s>`<a href="https://present.kim/ckir">사지방 문서</a>는 나중에 수정하도록 하겠습니다</s></p><hr><h2 id="screenshots"><a class="header-anchor" href="2019/10/23/8#screenshots"></a>Screenshots<a href="2019/10/23/8#screenshots"></a></h2><ul><li><p>in desktop<br><img src="2019/10/23/8/screenshot_desktop.JPG" alt="screenshot_desktop.jpg"></p></li><li><p>in mobile<br><img src="2019/10/23/8/screenshot_mobile.JPG" alt="screenshot_desktop.jpg"></p></li></ul>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>테마를 Inside로 변경했습니다</title>
+      <link>https://present.kim/2019/10/03/7/</link>
+      <guid>https://present.kim/2019/10/03/7/</guid>
+      <pubDate>Thu, 03 Oct 2019 14:39:15 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;블로그에 &lt;a href=&quot;https://github.com/ikeq/hexo-theme-inside&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Inside&lt;/a&gt; 테마를 적용했습니다!&lt;br&gt;
+약간 문제되는 것들은 수정해가면서 차차 
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>블로그에 <a href="https://github.com/ikeq/hexo-theme-inside" target="_blank" rel="noopener">Inside</a> 테마를 적용했습니다!<br>약간 문제되는 것들은 수정해가면서 차차 알맞게 적용중입니다</p><p>아직 수정이 완전하게 안되서 404페이지랑 <a href="https://utteranc.es/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comments" class="svg-inline--fa fa-comments fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><path fill="currentColor" d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"/></svg> utterances</a> 등등은 아직 미지원인채로 있습니다…</p><hr><p>추가로 PMMP플러그인 레포지토리 44개를 <a href="https://github.com/Organization" target="_blank" rel="noopener">Organic</a> 으로 이동시켰습니다<br>따라서 이제 Organic에 레포지토리가 244개가 됐습니다</p><style>svg:not(:root).svg-inline--fa {  overflow: visible;}.svg-inline--fa {  display: inline-block;  font-size: inherit;  height: 1em;  overflow: visible;  vertical-align: -0.125em;}.svg-inline--fa.fa-lg {  vertical-align: -0.225em;}.svg-inline--fa.fa-w-1 {  width: 0.0625em;}.svg-inline--fa.fa-w-2 {  width: 0.125em;}.svg-inline--fa.fa-w-3 {  width: 0.1875em;}.svg-inline--fa.fa-w-4 {  width: 0.25em;}.svg-inline--fa.fa-w-5 {  width: 0.3125em;}.svg-inline--fa.fa-w-6 {  width: 0.375em;}.svg-inline--fa.fa-w-7 {  width: 0.4375em;}.svg-inline--fa.fa-w-8 {  width: 0.5em;}.svg-inline--fa.fa-w-9 {  width: 0.5625em;}.svg-inline--fa.fa-w-10 {  width: 0.625em;}.svg-inline--fa.fa-w-11 {  width: 0.6875em;}.svg-inline--fa.fa-w-12 {  width: 0.75em;}.svg-inline--fa.fa-w-13 {  width: 0.8125em;}.svg-inline--fa.fa-w-14 {  width: 0.875em;}.svg-inline--fa.fa-w-15 {  width: 0.9375em;}.svg-inline--fa.fa-w-16 {  width: 1em;}.svg-inline--fa.fa-w-17 {  width: 1.0625em;}.svg-inline--fa.fa-w-18 {  width: 1.125em;}.svg-inline--fa.fa-w-19 {  width: 1.1875em;}.svg-inline--fa.fa-w-20 {  width: 1.25em;}.svg-inline--fa.fa-pull-left {  margin-right: 0.3em;  width: auto;}.svg-inline--fa.fa-pull-right {  margin-left: 0.3em;  width: auto;}.svg-inline--fa.fa-border {  height: 1.5em;}.svg-inline--fa.fa-li {  width: 2em;}.svg-inline--fa.fa-fw {  width: 1.25em;}.fa-layers svg.svg-inline--fa {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.fa-layers {  display: inline-block;  height: 1em;  position: relative;  text-align: center;  vertical-align: -0.125em;  width: 1em;}.fa-layers svg.svg-inline--fa {  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter, .fa-layers-text {  display: inline-block;  position: absolute;  text-align: center;}.fa-layers-text {  left: 50%;  top: 50%;  -webkit-transform: translate(-50%, -50%);          transform: translate(-50%, -50%);  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter {  background-color: #ff253a;  border-radius: 1em;  -webkit-box-sizing: border-box;          box-sizing: border-box;  color: #fff;  height: 1.5em;  line-height: 1;  max-width: 5em;  min-width: 1.5em;  overflow: hidden;  padding: 0.25em;  right: 0;  text-overflow: ellipsis;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-bottom-right {  bottom: 0;  right: 0;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom right;          transform-origin: bottom right;}.fa-layers-bottom-left {  bottom: 0;  left: 0;  right: auto;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom left;          transform-origin: bottom left;}.fa-layers-top-right {  right: 0;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-top-left {  left: 0;  right: auto;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top left;          transform-origin: top left;}.fa-lg {  font-size: 1.3333333333em;  line-height: 0.75em;  vertical-align: -0.0667em;}.fa-xs {  font-size: 0.75em;}.fa-sm {  font-size: 0.875em;}.fa-1x {  font-size: 1em;}.fa-2x {  font-size: 2em;}.fa-3x {  font-size: 3em;}.fa-4x {  font-size: 4em;}.fa-5x {  font-size: 5em;}.fa-6x {  font-size: 6em;}.fa-7x {  font-size: 7em;}.fa-8x {  font-size: 8em;}.fa-9x {  font-size: 9em;}.fa-10x {  font-size: 10em;}.fa-fw {  text-align: center;  width: 1.25em;}.fa-ul {  list-style-type: none;  margin-left: 2.5em;  padding-left: 0;}.fa-ul > li {  position: relative;}.fa-li {  left: -2em;  position: absolute;  text-align: center;  width: 2em;  line-height: inherit;}.fa-border {  border: solid 0.08em #eee;  border-radius: 0.1em;  padding: 0.2em 0.25em 0.15em;}.fa-pull-left {  float: left;}.fa-pull-right {  float: right;}.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {  margin-right: 0.3em;}.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {  margin-left: 0.3em;}.fa-spin {  -webkit-animation: fa-spin 2s infinite linear;          animation: fa-spin 2s infinite linear;}.fa-pulse {  -webkit-animation: fa-spin 1s infinite steps(8);          animation: fa-spin 1s infinite steps(8);}@-webkit-keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}@keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}.fa-rotate-90 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";  -webkit-transform: rotate(90deg);          transform: rotate(90deg);}.fa-rotate-180 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";  -webkit-transform: rotate(180deg);          transform: rotate(180deg);}.fa-rotate-270 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";  -webkit-transform: rotate(270deg);          transform: rotate(270deg);}.fa-flip-horizontal {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";  -webkit-transform: scale(-1, 1);          transform: scale(-1, 1);}.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(1, -1);          transform: scale(1, -1);}.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(-1, -1);          transform: scale(-1, -1);}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-flip-both {  -webkit-filter: none;          filter: none;}.fa-stack {  display: inline-block;  height: 2em;  position: relative;  width: 2.5em;}.fa-stack-1x,.fa-stack-2x {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.svg-inline--fa.fa-stack-1x {  height: 1em;  width: 1.25em;}.svg-inline--fa.fa-stack-2x {  height: 2em;  width: 2.5em;}.fa-inverse {  color: #fff;}.sr-only {  border: 0;  clip: rect(0, 0, 0, 0);  height: 1px;  margin: -1px;  overflow: hidden;  padding: 0;  position: absolute;  width: 1px;}.sr-only-focusable:active, .sr-only-focusable:focus {  clip: auto;  height: auto;  margin: 0;  overflow: visible;  position: static;  width: auto;}.svg-inline--fa .fa-primary {  fill: var(--fa-primary-color, currentColor);  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa .fa-secondary {  fill: var(--fa-secondary-color, currentColor);  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-primary {  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-secondary {  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary {  fill: black;}.fad.fa-inverse {  color: #fff;}</style>  ]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>사이버 지식 정보방용 정보</title>
+      <link>https://present.kim/2019/09/27/6/</link>
+      <guid>https://present.kim/2019/09/27/6/</guid>
+      <pubDate>Fri, 27 Sep 2019 14:47:38 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;기존 게시글을 모두 삭제하고 사이버 지식 정보방용 페이지로 통합했습니다&lt;/p&gt;
+&lt;h1&gt;&lt;a href=&quot;../ckir&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fas&quot; data-icon=&quot;
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>기존 게시글을 모두 삭제하고 사이버 지식 정보방용 페이지로 통합했습니다</p><h1><a href="../ckir"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link" class="svg-inline--fa fa-link fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg> 바로가기</a><a href="2019/09/27/6#undefined"></a></h1><p><s>(계속 업데이트 할 예정입니다)</s></p><style>svg:not(:root).svg-inline--fa {  overflow: visible;}.svg-inline--fa {  display: inline-block;  font-size: inherit;  height: 1em;  overflow: visible;  vertical-align: -0.125em;}.svg-inline--fa.fa-lg {  vertical-align: -0.225em;}.svg-inline--fa.fa-w-1 {  width: 0.0625em;}.svg-inline--fa.fa-w-2 {  width: 0.125em;}.svg-inline--fa.fa-w-3 {  width: 0.1875em;}.svg-inline--fa.fa-w-4 {  width: 0.25em;}.svg-inline--fa.fa-w-5 {  width: 0.3125em;}.svg-inline--fa.fa-w-6 {  width: 0.375em;}.svg-inline--fa.fa-w-7 {  width: 0.4375em;}.svg-inline--fa.fa-w-8 {  width: 0.5em;}.svg-inline--fa.fa-w-9 {  width: 0.5625em;}.svg-inline--fa.fa-w-10 {  width: 0.625em;}.svg-inline--fa.fa-w-11 {  width: 0.6875em;}.svg-inline--fa.fa-w-12 {  width: 0.75em;}.svg-inline--fa.fa-w-13 {  width: 0.8125em;}.svg-inline--fa.fa-w-14 {  width: 0.875em;}.svg-inline--fa.fa-w-15 {  width: 0.9375em;}.svg-inline--fa.fa-w-16 {  width: 1em;}.svg-inline--fa.fa-w-17 {  width: 1.0625em;}.svg-inline--fa.fa-w-18 {  width: 1.125em;}.svg-inline--fa.fa-w-19 {  width: 1.1875em;}.svg-inline--fa.fa-w-20 {  width: 1.25em;}.svg-inline--fa.fa-pull-left {  margin-right: 0.3em;  width: auto;}.svg-inline--fa.fa-pull-right {  margin-left: 0.3em;  width: auto;}.svg-inline--fa.fa-border {  height: 1.5em;}.svg-inline--fa.fa-li {  width: 2em;}.svg-inline--fa.fa-fw {  width: 1.25em;}.fa-layers svg.svg-inline--fa {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.fa-layers {  display: inline-block;  height: 1em;  position: relative;  text-align: center;  vertical-align: -0.125em;  width: 1em;}.fa-layers svg.svg-inline--fa {  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter, .fa-layers-text {  display: inline-block;  position: absolute;  text-align: center;}.fa-layers-text {  left: 50%;  top: 50%;  -webkit-transform: translate(-50%, -50%);          transform: translate(-50%, -50%);  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter {  background-color: #ff253a;  border-radius: 1em;  -webkit-box-sizing: border-box;          box-sizing: border-box;  color: #fff;  height: 1.5em;  line-height: 1;  max-width: 5em;  min-width: 1.5em;  overflow: hidden;  padding: 0.25em;  right: 0;  text-overflow: ellipsis;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-bottom-right {  bottom: 0;  right: 0;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom right;          transform-origin: bottom right;}.fa-layers-bottom-left {  bottom: 0;  left: 0;  right: auto;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom left;          transform-origin: bottom left;}.fa-layers-top-right {  right: 0;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-top-left {  left: 0;  right: auto;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top left;          transform-origin: top left;}.fa-lg {  font-size: 1.3333333333em;  line-height: 0.75em;  vertical-align: -0.0667em;}.fa-xs {  font-size: 0.75em;}.fa-sm {  font-size: 0.875em;}.fa-1x {  font-size: 1em;}.fa-2x {  font-size: 2em;}.fa-3x {  font-size: 3em;}.fa-4x {  font-size: 4em;}.fa-5x {  font-size: 5em;}.fa-6x {  font-size: 6em;}.fa-7x {  font-size: 7em;}.fa-8x {  font-size: 8em;}.fa-9x {  font-size: 9em;}.fa-10x {  font-size: 10em;}.fa-fw {  text-align: center;  width: 1.25em;}.fa-ul {  list-style-type: none;  margin-left: 2.5em;  padding-left: 0;}.fa-ul > li {  position: relative;}.fa-li {  left: -2em;  position: absolute;  text-align: center;  width: 2em;  line-height: inherit;}.fa-border {  border: solid 0.08em #eee;  border-radius: 0.1em;  padding: 0.2em 0.25em 0.15em;}.fa-pull-left {  float: left;}.fa-pull-right {  float: right;}.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {  margin-right: 0.3em;}.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {  margin-left: 0.3em;}.fa-spin {  -webkit-animation: fa-spin 2s infinite linear;          animation: fa-spin 2s infinite linear;}.fa-pulse {  -webkit-animation: fa-spin 1s infinite steps(8);          animation: fa-spin 1s infinite steps(8);}@-webkit-keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}@keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}.fa-rotate-90 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";  -webkit-transform: rotate(90deg);          transform: rotate(90deg);}.fa-rotate-180 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";  -webkit-transform: rotate(180deg);          transform: rotate(180deg);}.fa-rotate-270 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";  -webkit-transform: rotate(270deg);          transform: rotate(270deg);}.fa-flip-horizontal {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";  -webkit-transform: scale(-1, 1);          transform: scale(-1, 1);}.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(1, -1);          transform: scale(1, -1);}.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(-1, -1);          transform: scale(-1, -1);}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-flip-both {  -webkit-filter: none;          filter: none;}.fa-stack {  display: inline-block;  height: 2em;  position: relative;  width: 2.5em;}.fa-stack-1x,.fa-stack-2x {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.svg-inline--fa.fa-stack-1x {  height: 1em;  width: 1.25em;}.svg-inline--fa.fa-stack-2x {  height: 2em;  width: 2.5em;}.fa-inverse {  color: #fff;}.sr-only {  border: 0;  clip: rect(0, 0, 0, 0);  height: 1px;  margin: -1px;  overflow: hidden;  padding: 0;  position: absolute;  width: 1px;}.sr-only-focusable:active, .sr-only-focusable:focus {  clip: auto;  height: auto;  margin: 0;  overflow: visible;  position: static;  width: auto;}.svg-inline--fa .fa-primary {  fill: var(--fa-primary-color, currentColor);  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa .fa-secondary {  fill: var(--fa-secondary-color, currentColor);  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-primary {  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-secondary {  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary {  fill: black;}.fad.fa-inverse {  color: #fff;}</style>  ]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>markdown-it을 설치했습니다</title>
+      <link>https://present.kim/2019/07/09/5/</link>
+      <guid>https://present.kim/2019/07/09/5/</guid>
+      <pubDate>Tue, 09 Jul 2019 10:10:44 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;마크다운 렌더러로 &lt;a href=&quot;https://github.com/hexojs/hexo-renderer-markdown-it&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;hexo-renderer-markdown-it&lt;/a&gt;를 적용했
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>마크다운 렌더러로 <a href="https://github.com/hexojs/hexo-renderer-markdown-it" target="_blank" rel="noopener">hexo-renderer-markdown-it</a>를 적용했습니다!<br>따라서 이제 각주<sup class="footnote-ref"><a href="2019/07/09/5#fn1" id="fnref1">[1]</a></sup>를 사용할 수 있습니다</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>이것은 예제용 각주입니다 <a href="2019/07/09/5#fnref1" class="footnote-backref">↩</a></p></li></ol></section>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>블로깅을 편하게 하려고 노력중입니다</title>
+      <link>https://present.kim/2019/07/06/4/</link>
+      <guid>https://present.kim/2019/07/06/4/</guid>
+      <pubDate>Sat, 06 Jul 2019 11:15:17 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;별건 없습니다… 그냥 &lt;a href=&quot;https://github.com/greg-js/hexo-cli-extras&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;hexo-cli-extras&lt;/a&gt; 깔아서 쓰는 중입니다&lt;/p&gt;
+
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>별건 없습니다… 그냥 <a href="https://github.com/greg-js/hexo-cli-extras" target="_blank" rel="noopener">hexo-cli-extras</a> 깔아서 쓰는 중입니다</p>]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>포스트 url을 게시글ID로 수정했습니다</title>
+      <link>https://present.kim/2019/07/06/3/</link>
+      <guid>https://present.kim/2019/07/06/3/</guid>
+      <pubDate>Sat, 06 Jul 2019 09:25:59 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h1&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; data-prefix=&quot;fas&quot; data-icon=&quot;list-ol&quot; class=&quot;svg-inline--fa fa-list-ol fa-w-16&quot; role=&quot;img&quot; xml
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h1><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="list-ol" class="svg-inline--fa fa-list-ol fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M61.77 401l17.5-20.15a19.92 19.92 0 0 0 5.07-14.19v-3.31C84.34 356 80.5 352 73 352H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8h22.83a157.41 157.41 0 0 0-11 12.31l-5.61 7c-4 5.07-5.25 10.13-2.8 14.88l1.05 1.93c3 5.76 6.29 7.88 12.25 7.88h4.73c10.33 0 15.94 2.44 15.94 9.09 0 4.72-4.2 8.22-14.36 8.22a41.54 41.54 0 0 1-15.47-3.12c-6.49-3.88-11.74-3.5-15.6 3.12l-5.59 9.31c-3.72 6.13-3.19 11.72 2.63 15.94 7.71 4.69 20.38 9.44 37 9.44 34.16 0 48.5-22.75 48.5-44.12-.03-14.38-9.12-29.76-28.73-34.88zM496 224H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zM16 160h64a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8H64V40a8 8 0 0 0-8-8H32a8 8 0 0 0-7.14 4.42l-8 16A8 8 0 0 0 24 64h8v64H16a8 8 0 0 0-8 8v16a8 8 0 0 0 8 8zm-3.91 160H80a8 8 0 0 0 8-8v-16a8 8 0 0 0-8-8H41.32c3.29-10.29 48.34-18.68 48.34-56.44 0-29.06-25-39.56-44.47-39.56-21.36 0-33.8 10-40.46 18.75-4.37 5.59-3 10.84 2.8 15.37l8.58 6.88c5.61 4.56 11 2.47 16.12-2.44a13.44 13.44 0 0 1 9.46-3.84c3.33 0 9.28 1.56 9.28 8.75C51 248.19 0 257.31 0 304.59v4C0 316 5.08 320 12.09 320z"/></svg> 이제 articleID를 사용합니다<a href="2019/07/06/3#undefined"></a></h1><p>각 포스트마다 게시글 제목대로 url이 만들어지는게 너무 더러워보여서 좀 귀찮겠지만 articleID가 url이 되도록 수정했습니다</p><style>svg:not(:root).svg-inline--fa {  overflow: visible;}.svg-inline--fa {  display: inline-block;  font-size: inherit;  height: 1em;  overflow: visible;  vertical-align: -0.125em;}.svg-inline--fa.fa-lg {  vertical-align: -0.225em;}.svg-inline--fa.fa-w-1 {  width: 0.0625em;}.svg-inline--fa.fa-w-2 {  width: 0.125em;}.svg-inline--fa.fa-w-3 {  width: 0.1875em;}.svg-inline--fa.fa-w-4 {  width: 0.25em;}.svg-inline--fa.fa-w-5 {  width: 0.3125em;}.svg-inline--fa.fa-w-6 {  width: 0.375em;}.svg-inline--fa.fa-w-7 {  width: 0.4375em;}.svg-inline--fa.fa-w-8 {  width: 0.5em;}.svg-inline--fa.fa-w-9 {  width: 0.5625em;}.svg-inline--fa.fa-w-10 {  width: 0.625em;}.svg-inline--fa.fa-w-11 {  width: 0.6875em;}.svg-inline--fa.fa-w-12 {  width: 0.75em;}.svg-inline--fa.fa-w-13 {  width: 0.8125em;}.svg-inline--fa.fa-w-14 {  width: 0.875em;}.svg-inline--fa.fa-w-15 {  width: 0.9375em;}.svg-inline--fa.fa-w-16 {  width: 1em;}.svg-inline--fa.fa-w-17 {  width: 1.0625em;}.svg-inline--fa.fa-w-18 {  width: 1.125em;}.svg-inline--fa.fa-w-19 {  width: 1.1875em;}.svg-inline--fa.fa-w-20 {  width: 1.25em;}.svg-inline--fa.fa-pull-left {  margin-right: 0.3em;  width: auto;}.svg-inline--fa.fa-pull-right {  margin-left: 0.3em;  width: auto;}.svg-inline--fa.fa-border {  height: 1.5em;}.svg-inline--fa.fa-li {  width: 2em;}.svg-inline--fa.fa-fw {  width: 1.25em;}.fa-layers svg.svg-inline--fa {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.fa-layers {  display: inline-block;  height: 1em;  position: relative;  text-align: center;  vertical-align: -0.125em;  width: 1em;}.fa-layers svg.svg-inline--fa {  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter, .fa-layers-text {  display: inline-block;  position: absolute;  text-align: center;}.fa-layers-text {  left: 50%;  top: 50%;  -webkit-transform: translate(-50%, -50%);          transform: translate(-50%, -50%);  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter {  background-color: #ff253a;  border-radius: 1em;  -webkit-box-sizing: border-box;          box-sizing: border-box;  color: #fff;  height: 1.5em;  line-height: 1;  max-width: 5em;  min-width: 1.5em;  overflow: hidden;  padding: 0.25em;  right: 0;  text-overflow: ellipsis;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-bottom-right {  bottom: 0;  right: 0;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom right;          transform-origin: bottom right;}.fa-layers-bottom-left {  bottom: 0;  left: 0;  right: auto;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom left;          transform-origin: bottom left;}.fa-layers-top-right {  right: 0;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-top-left {  left: 0;  right: auto;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top left;          transform-origin: top left;}.fa-lg {  font-size: 1.3333333333em;  line-height: 0.75em;  vertical-align: -0.0667em;}.fa-xs {  font-size: 0.75em;}.fa-sm {  font-size: 0.875em;}.fa-1x {  font-size: 1em;}.fa-2x {  font-size: 2em;}.fa-3x {  font-size: 3em;}.fa-4x {  font-size: 4em;}.fa-5x {  font-size: 5em;}.fa-6x {  font-size: 6em;}.fa-7x {  font-size: 7em;}.fa-8x {  font-size: 8em;}.fa-9x {  font-size: 9em;}.fa-10x {  font-size: 10em;}.fa-fw {  text-align: center;  width: 1.25em;}.fa-ul {  list-style-type: none;  margin-left: 2.5em;  padding-left: 0;}.fa-ul > li {  position: relative;}.fa-li {  left: -2em;  position: absolute;  text-align: center;  width: 2em;  line-height: inherit;}.fa-border {  border: solid 0.08em #eee;  border-radius: 0.1em;  padding: 0.2em 0.25em 0.15em;}.fa-pull-left {  float: left;}.fa-pull-right {  float: right;}.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {  margin-right: 0.3em;}.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {  margin-left: 0.3em;}.fa-spin {  -webkit-animation: fa-spin 2s infinite linear;          animation: fa-spin 2s infinite linear;}.fa-pulse {  -webkit-animation: fa-spin 1s infinite steps(8);          animation: fa-spin 1s infinite steps(8);}@-webkit-keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}@keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}.fa-rotate-90 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";  -webkit-transform: rotate(90deg);          transform: rotate(90deg);}.fa-rotate-180 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";  -webkit-transform: rotate(180deg);          transform: rotate(180deg);}.fa-rotate-270 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";  -webkit-transform: rotate(270deg);          transform: rotate(270deg);}.fa-flip-horizontal {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";  -webkit-transform: scale(-1, 1);          transform: scale(-1, 1);}.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(1, -1);          transform: scale(1, -1);}.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(-1, -1);          transform: scale(-1, -1);}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-flip-both {  -webkit-filter: none;          filter: none;}.fa-stack {  display: inline-block;  height: 2em;  position: relative;  width: 2.5em;}.fa-stack-1x,.fa-stack-2x {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.svg-inline--fa.fa-stack-1x {  height: 1em;  width: 1.25em;}.svg-inline--fa.fa-stack-2x {  height: 2em;  width: 2.5em;}.fa-inverse {  color: #fff;}.sr-only {  border: 0;  clip: rect(0, 0, 0, 0);  height: 1px;  margin: -1px;  overflow: hidden;  padding: 0;  position: absolute;  width: 1px;}.sr-only-focusable:active, .sr-only-focusable:focus {  clip: auto;  height: auto;  margin: 0;  overflow: visible;  position: static;  width: auto;}.svg-inline--fa .fa-primary {  fill: var(--fa-primary-color, currentColor);  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa .fa-secondary {  fill: var(--fa-secondary-color, currentColor);  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-primary {  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-secondary {  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary {  fill: black;}.fad.fa-inverse {  color: #fff;}</style>  ]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>블로그에 Anatole테마를 적용했습니다!</title>
+      <link>https://present.kim/2019/07/06/2/</link>
+      <guid>https://present.kim/2019/07/06/2/</guid>
+      <pubDate>Sat, 06 Jul 2019 06:12:42 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;블로그에 &lt;a href=&quot;https://github.com/Ben02/hexo-theme-Anatole&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Anatole&lt;/a&gt;테마를 적용했습니다!&lt;br&gt;
+천천히 테마를 수정하면서 블로그를 고
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>블로그에 <a href="https://github.com/Ben02/hexo-theme-Anatole" target="_blank" rel="noopener">Anatole</a>테마를 적용했습니다!<br>천천히 테마를 수정하면서 블로그를 고치는 중입니다</p><p>추가로 <a href="https://utteranc.es/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comments" class="svg-inline--fa fa-comments fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><path fill="currentColor" d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"/></svg> utterances</a>를 이용해 댓글을 달 수 있게 수정했습니다</p><ul><li><a href="https://github.com/Ben02/hexo-theme-Anatole" target="_blank" rel="noopener">Anatole</a> 테마 적용<ul><li>한국어로 수정</li><li>포스트 하단 <a href="https://utteranc.es" target="_blank" rel="noopener">utterances</a> 추가</li></ul></li></ul><style>svg:not(:root).svg-inline--fa {  overflow: visible;}.svg-inline--fa {  display: inline-block;  font-size: inherit;  height: 1em;  overflow: visible;  vertical-align: -0.125em;}.svg-inline--fa.fa-lg {  vertical-align: -0.225em;}.svg-inline--fa.fa-w-1 {  width: 0.0625em;}.svg-inline--fa.fa-w-2 {  width: 0.125em;}.svg-inline--fa.fa-w-3 {  width: 0.1875em;}.svg-inline--fa.fa-w-4 {  width: 0.25em;}.svg-inline--fa.fa-w-5 {  width: 0.3125em;}.svg-inline--fa.fa-w-6 {  width: 0.375em;}.svg-inline--fa.fa-w-7 {  width: 0.4375em;}.svg-inline--fa.fa-w-8 {  width: 0.5em;}.svg-inline--fa.fa-w-9 {  width: 0.5625em;}.svg-inline--fa.fa-w-10 {  width: 0.625em;}.svg-inline--fa.fa-w-11 {  width: 0.6875em;}.svg-inline--fa.fa-w-12 {  width: 0.75em;}.svg-inline--fa.fa-w-13 {  width: 0.8125em;}.svg-inline--fa.fa-w-14 {  width: 0.875em;}.svg-inline--fa.fa-w-15 {  width: 0.9375em;}.svg-inline--fa.fa-w-16 {  width: 1em;}.svg-inline--fa.fa-w-17 {  width: 1.0625em;}.svg-inline--fa.fa-w-18 {  width: 1.125em;}.svg-inline--fa.fa-w-19 {  width: 1.1875em;}.svg-inline--fa.fa-w-20 {  width: 1.25em;}.svg-inline--fa.fa-pull-left {  margin-right: 0.3em;  width: auto;}.svg-inline--fa.fa-pull-right {  margin-left: 0.3em;  width: auto;}.svg-inline--fa.fa-border {  height: 1.5em;}.svg-inline--fa.fa-li {  width: 2em;}.svg-inline--fa.fa-fw {  width: 1.25em;}.fa-layers svg.svg-inline--fa {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.fa-layers {  display: inline-block;  height: 1em;  position: relative;  text-align: center;  vertical-align: -0.125em;  width: 1em;}.fa-layers svg.svg-inline--fa {  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter, .fa-layers-text {  display: inline-block;  position: absolute;  text-align: center;}.fa-layers-text {  left: 50%;  top: 50%;  -webkit-transform: translate(-50%, -50%);          transform: translate(-50%, -50%);  -webkit-transform-origin: center center;          transform-origin: center center;}.fa-layers-counter {  background-color: #ff253a;  border-radius: 1em;  -webkit-box-sizing: border-box;          box-sizing: border-box;  color: #fff;  height: 1.5em;  line-height: 1;  max-width: 5em;  min-width: 1.5em;  overflow: hidden;  padding: 0.25em;  right: 0;  text-overflow: ellipsis;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-bottom-right {  bottom: 0;  right: 0;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom right;          transform-origin: bottom right;}.fa-layers-bottom-left {  bottom: 0;  left: 0;  right: auto;  top: auto;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: bottom left;          transform-origin: bottom left;}.fa-layers-top-right {  right: 0;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top right;          transform-origin: top right;}.fa-layers-top-left {  left: 0;  right: auto;  top: 0;  -webkit-transform: scale(0.25);          transform: scale(0.25);  -webkit-transform-origin: top left;          transform-origin: top left;}.fa-lg {  font-size: 1.3333333333em;  line-height: 0.75em;  vertical-align: -0.0667em;}.fa-xs {  font-size: 0.75em;}.fa-sm {  font-size: 0.875em;}.fa-1x {  font-size: 1em;}.fa-2x {  font-size: 2em;}.fa-3x {  font-size: 3em;}.fa-4x {  font-size: 4em;}.fa-5x {  font-size: 5em;}.fa-6x {  font-size: 6em;}.fa-7x {  font-size: 7em;}.fa-8x {  font-size: 8em;}.fa-9x {  font-size: 9em;}.fa-10x {  font-size: 10em;}.fa-fw {  text-align: center;  width: 1.25em;}.fa-ul {  list-style-type: none;  margin-left: 2.5em;  padding-left: 0;}.fa-ul > li {  position: relative;}.fa-li {  left: -2em;  position: absolute;  text-align: center;  width: 2em;  line-height: inherit;}.fa-border {  border: solid 0.08em #eee;  border-radius: 0.1em;  padding: 0.2em 0.25em 0.15em;}.fa-pull-left {  float: left;}.fa-pull-right {  float: right;}.fa.fa-pull-left,.fas.fa-pull-left,.far.fa-pull-left,.fal.fa-pull-left,.fab.fa-pull-left {  margin-right: 0.3em;}.fa.fa-pull-right,.fas.fa-pull-right,.far.fa-pull-right,.fal.fa-pull-right,.fab.fa-pull-right {  margin-left: 0.3em;}.fa-spin {  -webkit-animation: fa-spin 2s infinite linear;          animation: fa-spin 2s infinite linear;}.fa-pulse {  -webkit-animation: fa-spin 1s infinite steps(8);          animation: fa-spin 1s infinite steps(8);}@-webkit-keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}@keyframes fa-spin {  0% {    -webkit-transform: rotate(0deg);            transform: rotate(0deg);  }  100% {    -webkit-transform: rotate(360deg);            transform: rotate(360deg);  }}.fa-rotate-90 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";  -webkit-transform: rotate(90deg);          transform: rotate(90deg);}.fa-rotate-180 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";  -webkit-transform: rotate(180deg);          transform: rotate(180deg);}.fa-rotate-270 {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";  -webkit-transform: rotate(270deg);          transform: rotate(270deg);}.fa-flip-horizontal {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";  -webkit-transform: scale(-1, 1);          transform: scale(-1, 1);}.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(1, -1);          transform: scale(1, -1);}.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";  -webkit-transform: scale(-1, -1);          transform: scale(-1, -1);}:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-flip-both {  -webkit-filter: none;          filter: none;}.fa-stack {  display: inline-block;  height: 2em;  position: relative;  width: 2.5em;}.fa-stack-1x,.fa-stack-2x {  bottom: 0;  left: 0;  margin: auto;  position: absolute;  right: 0;  top: 0;}.svg-inline--fa.fa-stack-1x {  height: 1em;  width: 1.25em;}.svg-inline--fa.fa-stack-2x {  height: 2em;  width: 2.5em;}.fa-inverse {  color: #fff;}.sr-only {  border: 0;  clip: rect(0, 0, 0, 0);  height: 1px;  margin: -1px;  overflow: hidden;  padding: 0;  position: absolute;  width: 1px;}.sr-only-focusable:active, .sr-only-focusable:focus {  clip: auto;  height: auto;  margin: 0;  overflow: visible;  position: static;  width: auto;}.svg-inline--fa .fa-primary {  fill: var(--fa-primary-color, currentColor);  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa .fa-secondary {  fill: var(--fa-secondary-color, currentColor);  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-primary {  opacity: 0.4;  opacity: var(--fa-secondary-opacity, 0.4);}.svg-inline--fa.fa-swap-opacity .fa-secondary {  opacity: 1;  opacity: var(--fa-primary-opacity, 1);}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary {  fill: black;}.fad.fa-inverse {  color: #fff;}</style>  ]]></content:encoded>
+      
+      
+    </item>
+    
+    <item>
+      <title>Hexo 블로그를 만들었습니다!</title>
+      <link>https://present.kim/2019/07/06/1/</link>
+      <guid>https://present.kim/2019/07/06/1/</guid>
+      <pubDate>Sat, 06 Jul 2019 04:51:27 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GH-pages&lt;/a&gt;와 &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p><a href="https://pages.github.com" target="_blank" rel="noopener">GH-pages</a>와 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>를 이용해서 블로그를 개설했습니다<br><a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>이나 <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener">Getsby</a> <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> 등 다른 정적 페이지 생성기들도 추천 받았지만 Nodejs에서 돌아간다는 점이 마음에 들었기 때문이 <strong>Hexo</strong>를 선택했습니다<br>이제 테스트용 글들을 올려보면서 블로그 레이아웃부터 잡을 예정입니다</p>]]></content:encoded>
+      
+      
+    </item>
+    
+  </channel>
+</rss>
